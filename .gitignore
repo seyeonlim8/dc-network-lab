@@ -1,0 +1,13 @@
+# macOS metadata
+.DS_Store
+
+# editor swap files
+*.swp
+
+# containerlab runtime directories (generated on deploy, may contain certs)
+clab-*/
+
+# secrets: never commit
+*.key
+*.pem
+.env
